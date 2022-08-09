@@ -92,8 +92,8 @@
         @section('scripts-before')
         @show
 
-        <script src="{{ mix('js/manifest.js') }}"></script>
-        <script src="{{ mix('js/vendor.js') }}"></script>
+{{--        <script src="{{ mix('js/manifest.js') }}"></script>--}}
+{{--        <script src="{{ mix('js/vendor.js') }}"></script>--}}
         <script src="{{ mix('js/app.js') }}"></script>
 
         @if(is_module_enabled('Notification'))
