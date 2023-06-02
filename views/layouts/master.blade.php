@@ -19,6 +19,7 @@
         @endforeach
         <link media="all" type="text/css" rel="stylesheet" href="{{ mix('css/app.css') }}">
         {!! Theme::script('vendor/jquery/jquery.min.js') !!}
+        @include('partials.css-fixes')
         @include('partials.asgard-globals')
         @section('styles')
         @show
